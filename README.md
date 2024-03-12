@@ -9,6 +9,5 @@ ruby "3.2.2"
   (2) Install and use ruby "3.2.2"
   (3) Run bundle install at directory
   (4) Run rails db:create
-  (4) Set REACT_APP_GOOGLE_MAPS_KEY where it is called.
   (5) Run "rails s"
   (6) Test local endpoints using "http://localhost:3000"
