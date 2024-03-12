@@ -8,8 +8,11 @@ class UsersController < ApplicationController
 
   def create
     result = User.new(user_params)
-    result.save!
-    render json: result
+    if result.save
+      render json: result
+    else
+      render json: { errors: result.errors.full_messages }, status: :unprocessable_entity
+    end
 
   end
 
