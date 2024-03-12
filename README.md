@@ -17,4 +17,4 @@ ruby "3.2.2"
   
   (6) Test local endpoints using "http://localhost:3000"
 
-  (7) (optional) use postman to test local endpoints -> undefined/workspace/challenge-app-testing/collection/17801611-6d81fb7e-4d42-4dcd-806a-baad9a614c60?action=share&creator=17801611
+  (7) (optional) use postman to test local endpoints -> "undefined/workspace/challenge-app-testing/collection/17801611-6d81fb7e-4d42-4dcd-806a-baad9a614c60?action=share&creator=17801611"
