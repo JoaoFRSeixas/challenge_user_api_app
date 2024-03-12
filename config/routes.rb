@@ -6,10 +6,9 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   get 'users/index'
-  get 'users/show'
+  get 'users/:id', to: 'users#show', as: 'show_user'
   post 'users/create'
   post 'users/delete'
-
   put 'users/update'
 
 

@@ -8,8 +8,8 @@ class UsersController < ApplicationController
 
   def create
     result = User.new(user_params)
-
-    render json: result if result.save
+    result.save!
+    render json: result
 
   end
 
